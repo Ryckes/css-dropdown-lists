@@ -1,0 +1,56 @@
+.menuwrapper {
+	padding:0;
+	float:left;
+}
+
+.menuwrapper * {
+	margin:0;
+	padding:0;
+}
+
+.dropdown {
+	position: relative;
+	margin:0;
+}
+
+.dropdown li {
+	float: left;
+	list-style-type: none;
+	margin:0;
+	zoom: 1;
+}
+
+.dropdown li a {
+	display: block;
+	margin:0; 
+}
+
+.dropdown li:hover {
+	position: relative;
+}
+
+.dropdown ul {
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	padding:0;
+}
+
+.dropdown ul li {
+	float: none;
+}
+
+.dropdown ul li a {
+	width: 100%;
+	display: inline-block;
+} 
+
+.dropdown ul ul {
+	left: 100%;
+	top: 0;
+}
+
+.dropdown li:hover > ul {
+	visibility: visible;
+}

@@ -1,0 +1,34 @@
+.dropdown a, .dropdown a:active, .dropdown a:link, .dropdown a:hover, .dropdown a:visited {
+	/* Properties of the text of every item (they are all links). */
+	color: inherit;
+	text-decoration: none;
+}
+
+.dropdown {
+	font-family: Helvetica;
+}
+
+.dropdown li {
+	/* For every item. */
+	padding: 4px;
+}
+
+.dropdown a:hover {
+	color:#009955; /* Hover color of the links, if any. */
+}
+
+.dropdown ul {
+	/* Properties of each nested list. */
+	width:100px;
+	background-color: #FFFFFF;
+}
+
+.dropdown ul li {
+	/* For every item but the always-visible item. */
+	border: none; 
+}
+
+.dropdown ul li:hover {
+	/* For every cell on hover. */
+	background-color: #CCCCFF;
+}
