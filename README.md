@@ -52,6 +52,8 @@ echo $dropdown->getCode();
 
 With that, we obtain exactly the same code as before. Easier, right? To make it work we only need to include the file dropdown.php found in directory _src_. And once again, link dropdown.css.
 
+If we want the elements with submenus to be also links at the same time, we need to add an element with key '__link', and its value will be the main element URL. This is valid for any level, including top one.
+
 Styling
 -------
 
